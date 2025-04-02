@@ -6326,7 +6326,7 @@
 		)
 		(uuid "55768c8d-b154-4533-8d25-7a592eefa06c")
 	)
-	(text "Track Balls"
+	(text "Track Ball"
 		(exclude_from_sim no)
 		(at 114.3 334.01 0)
 		(effects
@@ -7617,7 +7617,7 @@
 	)
 	(polyline
 		(pts
-			(xy 111.76 327.66) (xy 199.39 327.66)
+			(xy 111.76 327.66) (xy 166.37 327.66)
 		)
 		(stroke
 			(width 0)
@@ -8447,6 +8447,16 @@
 	)
 	(polyline
 		(pts
+			(xy 166.37 379.73) (xy 166.37 384.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7836ff28-34a7-4d90-8771-91b10a1fd5f7")
+	)
+	(polyline
+		(pts
 			(xy 226.06 67.31) (xy 247.65 67.31)
 		)
 		(stroke
@@ -8787,7 +8797,7 @@
 	)
 	(polyline
 		(pts
-			(xy 111.76 384.81) (xy 199.39 384.81)
+			(xy 111.76 384.81) (xy 166.37 384.81)
 		)
 		(stroke
 			(width 0)
@@ -8827,7 +8837,7 @@
 	)
 	(polyline
 		(pts
-			(xy 199.39 384.81) (xy 199.39 327.66)
+			(xy 166.37 384.81) (xy 166.37 327.66)
 		)
 		(stroke
 			(width 0)
@@ -10435,16 +10445,6 @@
 		)
 		(uuid "12763ade-5b74-4bcb-9e53-56fb56f31744")
 	)
-	(label "MISO2"
-		(at 165.1 359.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "138bef06-1045-4a9c-ad14-68283d8e3caf")
-	)
 	(label "ROW4"
 		(at 71.12 347.98 180)
 		(effects
@@ -10475,7 +10475,7 @@
 		)
 		(uuid "198563cb-c833-45b5-b8fd-2662a9781083")
 	)
-	(label "MISO2"
+	(label "GPIO5"
 		(at 38.1 342.9 180)
 		(effects
 			(font
@@ -10615,17 +10615,7 @@
 		)
 		(uuid "2aaa5939-6d70-4d47-8711-0bf65008217b")
 	)
-	(label "SCK2"
-		(at 165.1 356.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2c5ce564-856a-429c-98d7-33c9854f6166")
-	)
-	(label "MOSI2"
+	(label "GPIO7"
 		(at 38.1 347.98 180)
 		(effects
 			(font
@@ -10715,7 +10705,7 @@
 		)
 		(uuid "3c9fb913-eb0d-4203-9bf7-5f79b8e29fed")
 	)
-	(label "SS2"
+	(label "GPIO8"
 		(at 38.1 350.52 180)
 		(effects
 			(font
@@ -11065,16 +11055,6 @@
 		)
 		(uuid "6a8f65f3-01db-460f-8522-51752fb0270c")
 	)
-	(label "SS2"
-		(at 165.1 351.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6a8f9200-29cb-4e87-9c6d-f8b9297a8572")
-	)
 	(label "U1TX"
 		(at 154.94 148.59 180)
 		(effects
@@ -11145,16 +11125,6 @@
 		)
 		(uuid "7cd2fc84-8fe2-4c51-a2b1-abe3625e0433")
 	)
-	(label "MOSI2"
-		(at 165.1 354.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7e114704-0f87-408e-a94d-8f726cc1f077")
-	)
 	(label "COL3"
 		(at 247.65 137.16 180)
 		(effects
@@ -11215,7 +11185,7 @@
 		)
 		(uuid "86105c8d-1da6-49fd-abb0-0e7d92ed5ab5")
 	)
-	(label "SCK2"
+	(label "GPIO6"
 		(at 38.1 345.44 180)
 		(effects
 			(font
@@ -11305,7 +11275,7 @@
 		)
 		(uuid "94916ca5-6e02-4c1f-add2-f20ab1ce8b73")
 	)
-	(label "SCK2"
+	(label "GPIO6"
 		(at 154.94 102.87 180)
 		(effects
 			(font
@@ -11355,7 +11325,7 @@
 		)
 		(uuid "a0e7a0be-d1c6-4547-9996-5827c21dede6")
 	)
-	(label "SS2"
+	(label "GPIO8"
 		(at 154.94 107.95 180)
 		(effects
 			(font
@@ -11445,7 +11415,7 @@
 		)
 		(uuid "a933d979-00b2-424b-96fa-1a38c4587d21")
 	)
-	(label "MISO2"
+	(label "GPIO5"
 		(at 154.94 100.33 180)
 		(effects
 			(font
@@ -11885,7 +11855,7 @@
 		)
 		(uuid "f02f1f70-b09f-41ea-bacb-df1bdeab0b2b")
 	)
-	(label "MOSI2"
+	(label "GPIO7"
 		(at 154.94 105.41 180)
 		(effects
 			(font
@@ -18560,70 +18530,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 361.95 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "706eba56-7cb0-4fbe-814c-6f15d849c8df")
-		(property "Reference" "#PWR052"
-			(at 158.75 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 160.7058 362.077 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7a640c4e-2169-49c8-8287-9d8613bc3783")
-		)
-		(instances
-			(project "main_board"
-				(path "/3c082c72-c82b-4256-b7a7-9c550c226441"
-					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 38.1 370.84 0)
 		(mirror y)
 		(unit 1)
@@ -18682,71 +18588,6 @@
 			(project "main_board"
 				(path "/3c082c72-c82b-4256-b7a7-9c550c226441"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 165.1 349.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "753cedfe-7999-4a73-bf3c-27979eb99c83")
-		(property "Reference" "#PWR051"
-			(at 168.91 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 161.8488 348.869 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "198a23f7-4064-4b47-8358-bc718a0c5a76")
-		)
-		(instances
-			(project "main_board"
-				(path "/3c082c72-c82b-4256-b7a7-9c550c226441"
-					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -20166,103 +20007,6 @@
 			(project "main_board"
 				(path "/3c082c72-c82b-4256-b7a7-9c550c226441"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:FPC-0.5FX-6PWCR-H20")
-		(at 170.18 355.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9a0ba05-4c63-4b88-a223-034b5c845522")
-		(property "Reference" "U9"
-			(at 173.99 354.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FPC-0.5FX-6PWCR-H20"
-			(at 173.99 356.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:FPC-SMD_6P-P0.50_FPC-0.5FX-6PWCR-H20"
-			(at 170.18 374.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 355.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 170.18 355.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C19268261"
-			(at 170.18 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "73bf107c-fb05-4e94-a320-bd225d6efd76")
-		)
-		(pin "3"
-			(uuid "82fc7ef8-7ced-4191-8ec6-b8b6fc414e76")
-		)
-		(pin "5"
-			(uuid "ade97b32-b845-42e7-9d48-0207e5d4c348")
-		)
-		(pin "1"
-			(uuid "22cb7072-ca43-4da0-9b11-1fc323979959")
-		)
-		(pin "7"
-			(uuid "2f15f980-731a-430f-b73f-2e31fc88e0fc")
-		)
-		(pin "6"
-			(uuid "017a7036-8c25-4318-8100-08045b575c61")
-		)
-		(pin "8"
-			(uuid "f9b7b1a6-2fbf-4f8f-889c-86023ee412ee")
-		)
-		(pin "2"
-			(uuid "2ea4a974-6376-441d-a310-d04b47e5c7d2")
-		)
-		(instances
-			(project "main_board"
-				(path "/3c082c72-c82b-4256-b7a7-9c550c226441"
-					(reference "U9")
 					(unit 1)
 				)
 			)
